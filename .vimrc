@@ -76,6 +76,7 @@ set completeopt-=preview
 set hls
 
 " ---NERDTREE---
+let NERDTreeShowBookmarks=1
 
 " ---taglist---
 " let Tlist_Auto_Open = 1
