@@ -16,6 +16,7 @@ Plugin 'SuperTab'
 Plugin 'vim-airline/vim-airline'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'ZoomWin'
+Plugin 'Auto-Pairs'
 Plugin 'mbbill/undotree'
 Plugin 'christoomey/vim-tmux-navigator'
 call vundle#end()
