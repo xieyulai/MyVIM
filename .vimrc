@@ -16,7 +16,7 @@ Plugin 'SuperTab'
 Plugin 'vim-airline/vim-airline'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'ZoomWin'
-Plugin 'Auto-Pairs'
+"Plugin 'Auto-Pairs'
 Plugin 'mbbill/undotree'
 Plugin 'christoomey/vim-tmux-navigator'
 call vundle#end()
@@ -83,6 +83,10 @@ let NERDTreeShowBookmarks=1
 " let Tlist_Auto_Open = 1
 let Tlist_Show_One_File = 1
 let Tlist_Close_On_Select = 1
+
+" ----color----
+hi Pmenu ctermfg=black ctermbg=white  guibg=#444444
+hi PmenuSel  ctermfg=white  ctermbg=black  guifg=white    guibg=grey40
 
 " ----cursor----
 set cursorline
