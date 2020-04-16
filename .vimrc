@@ -73,6 +73,10 @@ map <leader>x : PymodeLint<CR>
 map <leader>a : tabe<CR>
 map <leader>z : x<CR>
 
+" ----system cliper----
+vnoremap <leader>y "+y
+nmap <leader>p "+p
+
 set completeopt-=preview
 set hls
 
