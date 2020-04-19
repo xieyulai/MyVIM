@@ -16,3 +16,10 @@ vim
 vim --version | grep clipboard
 sudo apt-get install vim vim-scripts vim-gtk vim-gnome
 ```
+## Tmux system clipboard
+- sudo apt-get install xclip
+- https://unix.stackexchange.com/questions/131011/use-system-clipboard-in-vi-copy-mode-in-tmux
+
+## Xmobaxterm
+- copy: Ctrl + ins
+- paste: Shift + ins
