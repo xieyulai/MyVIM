@@ -1,5 +1,7 @@
 # MyVIM
 ## Install
+- cp .vimrc to ~
+- cp .tmux.conf to ~
 ```
 vim
 :PluginInstall
