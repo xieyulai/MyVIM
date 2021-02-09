@@ -76,6 +76,7 @@ map <leader>z : x<CR>
 " ----system cliper----
 vnoremap <leader>y "+y
 nmap <leader>p "+p
+set clipboard=unnamed
 
 set completeopt-=preview
 set hls
@@ -106,6 +107,7 @@ set expandtab
 "filetype indent on 
 
 let g:pymode = 1
+let g:pymode_python = "python3"
 let g:pymode_folding = 0
 let g:pymode_warnings = 1
 let g:pymode_doc = 0
